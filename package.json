@@ -1,0 +1,44 @@
+{
+  "name": "msg2agent-openclaw-plugin",
+  "version": "1.0.0",
+  "description": "OpenClaw plugin for agent-to-agent communication via msg2agent relay network",
+  "type": "module",
+  "main": "index.ts",
+  "openclaw": {
+    "plugin": "openclaw.plugin.json"
+  },
+  "files": [
+    "index.ts",
+    "openclaw.plugin.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.34.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "msg2agent",
+    "a2a",
+    "agent",
+    "mcp",
+    "did"
+  ],
+  "author": "Gianluca Mazza",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gianlucamazza/msg2agent-openclaw-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gianlucamazza/msg2agent-openclaw-plugin/issues"
+  },
+  "homepage": "https://github.com/gianlucamazza/msg2agent-openclaw-plugin#readme"
+}
