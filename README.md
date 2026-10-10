@@ -1,5 +1,7 @@
 # msg2agent OpenClaw Plugin
 
+> **Unmaintained.** This plugin is no longer maintained and may not work with current msg2agent or OpenClaw releases. msg2agent itself is now self-host only; see https://github.com/gianlucamazza/msg2agent. No support or security fixes are provided.
+
 OpenClaw plugin for agent-to-agent communication via msg2agent relay network.
 
 ## Features
